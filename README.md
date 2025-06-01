@@ -33,7 +33,8 @@ python deomo.py
 Based on the provided demo sample, the expected dd value should be: 11.049672614844578
 
 
-
+3. Other metrics
+In addition, we provide scripts for other metrics (LD, AD, LiD, MSSSIM, MDSI). These scripts have been integrated to avoid redundant flow computations and repeated image loading, resulting in improved computational efficiency. You can simply run ```LD_AD_LiD_MSSSIM_MDSI/evaluating.m``` in MATLAB to perform the evaluation.
 
 ## Citation
 If you are using our code and data, please consider citing our paper.
